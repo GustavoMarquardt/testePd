@@ -1,0 +1,295 @@
+{
+	"info": {
+		"_postman_id": "d7e79bda-5eed-49f3-a613-d658dbd0e00c",
+		"name": "testePD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "rotas",
+			"item": [
+				{
+					"name": "getAllEmployee",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/testePd/API/getAllEmployee.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"testePd",
+								"API",
+								"getAllEmployee.php"
+							]
+						},
+						"description": "Puxa todos os Employee do banco de dados"
+					},
+					"response": [
+						{
+							"name": "getAllEmplyee",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/testePd/API/getAllEmployee.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"testePd",
+										"API",
+										"getAllEmployee.php"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "html",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 06 May 2022 17:19:35 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.51 (Win64) PHP/7.4.26"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.26"
+								},
+								{
+									"key": "Content-Length",
+									"value": "326"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[{\"id\":\"14\",\"nome\":\"ttt\",\"estimatedHours\":\"4\",\"squadId\":\"13\"},{\"id\":\"13\",\"nome\":\"GUGU \",\"estimatedHours\":\"5\",\"squadId\":\"11\"},{\"id\":\"10\",\"nome\":\"gugu fofo\",\"estimatedHours\":\"8\",\"squadId\":\"11\"},{\"id\":\"9\",\"nome\":\"gugu nini\",\"estimatedHours\":\"6\",\"squadId\":\"11\"},{\"id\":\"8\",\"nome\":\"gugu kawaii\",\"estimatedHours\":\"4\",\"squadId\":\"11\"}]"
+						}
+					]
+				},
+				{
+					"name": "getAllSquads",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/testePd/API/getAllSquads.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"testePd",
+								"API",
+								"getAllSquads.php"
+							]
+						},
+						"description": "Puxa todos os squads do banco de dados"
+					},
+					"response": [
+						{
+							"name": "getAllSquads",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost/testePd/API/getAllSquads.php",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"path": [
+										"testePd",
+										"API",
+										"getAllSquads.php"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Date",
+									"value": "Fri, 06 May 2022 17:19:52 GMT"
+								},
+								{
+									"key": "Server",
+									"value": "Apache/2.4.51 (Win64) PHP/7.4.26"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.4.26"
+								},
+								{
+									"key": "Content-Length",
+									"value": "87"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=5, max=100"
+								},
+								{
+									"key": "Connection",
+									"value": "Keep-Alive"
+								},
+								{
+									"key": "Content-Type",
+									"value": "text/html; charset=UTF-8"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"16\",\n        \"nome\": \"\"\n    },\n    {\n        \"id\": \"11\",\n        \"nome\": \"squad Gusatvo\"\n    },\n    {\n        \"id\": \"13\",\n        \"nome\": \"gustavo\"\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "addReport",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost/testePd/API/addReport.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"testePd",
+								"API",
+								"addReport.php"
+							]
+						},
+						"description": "Adiciona um reporta no Banco\n\npassagem de valores\n\n{\n\n\"descriptio\": \"text\",\n\n\"employeeId\":\"id\",\n\n\"spendHours\":\"number\"\n\n}\n\nRetorno será\n\nstatus => falha, caso haja algum erro no processo\n\nstatus => sucesso, caso tenha sido executado com sucesso"
+					},
+					"response": []
+				},
+				{
+					"name": "addSquads",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/testePd/API/addSquads.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"testePd",
+								"API",
+								"addSquads.php"
+							]
+						},
+						"description": "StartFragment\n\nAdiciona um Squad no Banco\n\npassagem de valores\n\n{\n\n\"nome\": \"text\",\n\n}\n\nRetorno será\n\nstatus => falha, caso haja algum erro no processo\n\nstatus => sucesso, caso tenha sido executado com sucesso\n\nEndFragment"
+					},
+					"response": []
+				},
+				{
+					"name": "getSquadHours",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/testePd/API/getSquadHours.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"testePd",
+								"API",
+								"getSquadHours.php"
+							]
+						},
+						"description": "StartFragment\n\nPuxa os squads do banco de dados\n\nnão precisa de passagem de valores\n\nRetorno será\n\nstatus => falha, = caso haja algum erro no processo\n\n\\[\n\n{\n\nstatus=> sucesso\n\n}\n\n{\n\nDADOS\n\n}\n\n\\]\n\nEndFragment"
+					},
+					"response": []
+				},
+				{
+					"name": "addEmployes",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"url": {
+							"raw": "http://localhost/testePd/API/addEmployes.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"path": [
+								"testePd",
+								"API",
+								"addEmployes.php"
+							]
+						},
+						"description": "StartFragment\n\nPuxa os tudo do banco de dados fazendo relacionamento de tabelas\n\nparametros\n\n{\n\n\" nome\":\"text\",\n\n\"estimatedHours\":\"number\",\n\n\"squadId:\"number\"\n\n}\n\nRetorno será\n\nstatus => falha, = caso haja algum erro no processo\n\n\\[\n\n{\n\nstatus=> sucesso\n\n}\n\n{\n\nDADOS\n\n}\n\n\\]\n\nEndFragment"
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
