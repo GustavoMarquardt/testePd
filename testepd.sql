@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Tempo de geração: 06-Maio-2022 às 18:29
+-- Tempo de geração: 06-Maio-2022 às 18:44
 -- Versão do servidor: 5.7.36
 -- versão do PHP: 7.4.26
 
@@ -41,11 +41,11 @@ CREATE TABLE IF NOT EXISTS `employes` (
 --
 
 INSERT INTO `employes` (`id`, `nome`, `estimatedHours`, `squadId`) VALUES
-(14, 'ttt', 4, 13),
-(13, 'GUGU ', 5, 11),
-(10, 'gugu fofo', 8, 11),
-(9, 'gugu nini', 6, 11),
-(8, 'gugu kawaii', 4, 11);
+(14, 'teste4', 4, 13),
+(13, 'teste5', 5, 11),
+(10, 'teste10\r\n', 8, 11),
+(9, 'teste9\r\n', 6, 11),
+(8, 'teste8', 4, 11);
 
 -- --------------------------------------------------------
 
@@ -92,11 +92,8 @@ CREATE TABLE IF NOT EXISTS `squads` (
 --
 
 INSERT INTO `squads` (`id`, `nome`) VALUES
-(18, ''),
-(17, ''),
-(16, ''),
 (11, 'squad Gusatvo'),
-(13, 'gustavo');
+(13, 'squad Marquardt');
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
